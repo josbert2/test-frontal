@@ -1,0 +1,48 @@
+.form-control{
+  @apply mb-5 last:mb-0;
+  &.mb-none{
+      @apply mb-0;
+  }
+}
+
+.tw-input{
+   
+   color: red;
+   @apply h-9 rounded-md border border-[#e0e0e0] bg-white  px-6 text-xs font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md;
+   padding-left: 31px;
+   padding-bottom: 1px;
+   &.search-type{
+      background-color: #F5F5F5;
+      border: none;
+      height: 60px;
+      font-size: 15px;
+      padding-left: 50px;
+      width: 400px;
+      
+   }
+}
+
+.input-search{
+  background-color: transparent;
+  border-bottom: 1px solid;
+  border-color: #e0e0e0;
+  color:#e0e0e0;
+  padding-left: 4px;
+  @apply outline-none focus:border-[#6A64F1] focus:shadow-md;
+}
+
+.form-inputs{
+  input{
+    @apply mb-5 py-1.5 w-full px-2 rounded-lg text-secondary-500 font-extrabold;
+    &.mb-none{
+        @apply mb-0;
+    }
+  }
+  select{
+    @apply mb-5 py-1.5 w-full px-2 rounded-lg text-gray-400 font-extrabold;
+  }
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}

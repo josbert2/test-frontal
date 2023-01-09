@@ -1,0 +1,41 @@
+.btn-header{
+   background-color: #fff;
+
+   border-radius: 20px;
+   color: #D9D9D9;
+   font-weight: 800;
+   padding: 10px 20px;
+   margin-right: 10px;
+   transition: all 0.3s ease-in-out;
+   width: 184px;
+   @apply shadow;
+   &:hover{
+      @apply bg-primary-500;
+      color: #fff;
+   }
+   &.active{
+      @apply bg-primary-500;
+      color: #fff;
+   }
+}
+
+.btn-filters{
+   background-color: #fff;
+   width: 184px;
+   border-radius: 20px;
+   color: #D9D9D9;
+   font-weight: 800;
+   padding: 10px 35px;
+   margin-right: 10px;
+   transition: all 0.3s ease-in-out;
+   &:first-child
+   &:hover{
+      @apply bg-primary-500;
+      color: #fff;
+   }
+   &.active{
+      @apply bg-primary-500;
+      color: #fff;
+   }
+}
+
